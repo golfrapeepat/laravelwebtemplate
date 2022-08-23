@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'SOV';
+    src: url('../font/SOV_Station-Bold.ttf');
+}
+body{
+    font-family: 'Itim', cursive;
+    font-family: 'SOV', cursive;
+}
+.mynav{
+    background-color: blueviolet;
+}
