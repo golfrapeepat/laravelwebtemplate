@@ -25,3 +25,5 @@ Route::get('contact',[HomeController::class,'contact']);
 Route::get('login',[HomeController::class,'login']);
 
 Route::get('blackend/dashboard',[BackendController::class,'dashboard']);
+Route::get('blackend/employees',[BackendController::class,'employees']);
+Route::get('blackend/employeelist',[BackendController::class,'employeelist']);

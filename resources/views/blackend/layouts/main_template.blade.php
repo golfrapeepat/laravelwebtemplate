@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     @include('blackend.includes.head')
@@ -24,7 +25,7 @@
 
         </aside>
 
-        <div class="content-wrapper" style="overflow:auto">
+        <div class="content-wrapper">
             @yield('content')
         </div>
 
