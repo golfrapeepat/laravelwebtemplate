@@ -600,3 +600,18 @@
 </section>
 
 @endsection
+@push('scripts')
+<!-- ChartJS -->
+<script src="{{asset('assets/blackend/plugins/chart.js/Chart.min.js')}}"></script>
+<!-- Sparkline -->
+<script src="{{asset('assets/blackend/plugins/sparklines/sparkline.js')}}"></script>
+<!-- JQVMap -->
+<script src="{{asset('assets/blackend/plugins/jqvmap/jquery.vmap.min.js')}}"></script>
+<script src="{{asset('assets/blackend/plugins/jqvmap/maps/jquery.vmap.usa.js')}}"></script>
+<!-- jQuery Knob Chart -->
+<script src="{{asset('assets/blackend/plugins/jquery-knob/jquery.knob.min.js')}}"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="{{asset('assets/blackend/js/demo.js')}}"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="{{asset('assets/blackend/js/pages/dashboard.js')}}"></script>
+@endpush

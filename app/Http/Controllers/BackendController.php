@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use DB;
 use  App\Models\Employee;
+use  App\Models\product;
 
 class BackendController extends Controller
 {
@@ -74,5 +75,12 @@ class BackendController extends Controller
         $employees = Employee::orderBy('id','desc')->paginate(25);
        // $employees = Employee::where('age','>','98')->orderBy('age')->get();
        return view('blackend.pages.employeelist',compact('employees'));
+    }
+
+    public function productlist(){
+        //$employees = Employee::all();
+        $products = product::orderBy('id','desc')->paginate(25);
+       // $employees = Employee::where('age','>','98')->orderBy('age')->get();
+       return view('blackend.pages.productlist',compact('products'));
     }
 }
